@@ -1,5 +1,5 @@
 import { Pool } from "pg";
-require("dotenv").config;
+require("dotenv/config");
 
 const connectionString = process.env.CONNECT_STRING;
 
